@@ -1,0 +1,25 @@
+/* Dropdown fixes for Filament Select (TomSelect) - public buildless */
+.ts-dropdown {
+    z-index: 9999 !important;
+    min-width: 100% !important;
+    background: #fff !important;
+}
+
+.ts-dropdown .option,
+.ts-dropdown .optgroup-header {
+    color: #111827 !important;
+}
+
+.ts-dropdown .active {
+    background: #f3f4f6 !important;
+    color: #111827 !important;
+}
+
+.dark .ts-dropdown,
+.dark .ts-dropdown .option,
+.dark .ts-dropdown .optgroup-header {
+    background: #fff !important;
+    color: #111827 !important;
+}
+
+
