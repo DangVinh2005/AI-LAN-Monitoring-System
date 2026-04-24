@@ -29,29 +29,31 @@ Client Agents (Python)
 
 ## 📁 Project Structure
 
+```text
 ai-lan-monitoring-system/
-│
-├── server/        # FastAPI backend + AI
-├── client/        # Python agent
-├── admin/         # Laravel dashboard
+├── server/       # FastAPI backend + AI
+├── client/       # Python agent
+├── admin/        # Laravel dashboard
 └── README.md
+```
 
 ---
 
 ## ⚡ Quick Start
 
 ### 1. Start Server
-
+```text
 cd server
 python -m venv .venv
 source .venv/bin/activate
 pip install -r requirements.txt
 export ADMIN_API_KEY="dev-key"
 uvicorn app.main:app --host 0.0.0.0 --port 5000
-
+```
 ---
 
 ### 2. Run Client
+```text
 
 cd client
 python -m venv .venv
@@ -64,17 +66,17 @@ Config:
   "SERVER_URL": "http://<SERVER_IP>:5000",
   "ADMIN_API_KEY": "dev-key"
 }
-
+```
 ---
 
 ### 3. Admin Dashboard
-
+```text
 cd admin
 composer install
 php artisan serve
 
 http://localhost:8000
-
+```
 ---
 
 ## 🔌 Core API
