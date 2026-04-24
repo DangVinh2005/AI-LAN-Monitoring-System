@@ -55,7 +55,7 @@ uvicorn app.main:app --host 0.0.0.0 --port 5000
 ### 2. Run Client
 ```text
 
-cd client
+cd client-agent
 python -m venv .venv
 source .venv/bin/activate
 pip install -r requirements.txt
